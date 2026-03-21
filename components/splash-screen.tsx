@@ -6,7 +6,7 @@ import { languageNames, languageFlags, type Locale } from "@/lib/translations";
 import { Play } from "lucide-react";
 
 interface SplashScreenProps {
-  onComplete: (locale: Locale, audioElement: HTMLAudioElement | null) => void;
+  onComplete: (locale: Locale) => void;
 }
 
 const locales: Locale[] = ["es", "ja", "zh", "en"];
@@ -38,9 +38,9 @@ export function SplashScreen({ onComplete }: SplashScreenProps) {
 
   const handleSelectLanguage = (locale: Locale) => {
     setFadeOut(true);
-    // Pass the audio element to the main site so it keeps playing
+    // Audio keeps playing, just transition to main site
     setTimeout(() => {
-      onComplete(locale, audioRef.current);
+      onComplete(locale);
     }, 600);
   };
 
@@ -56,6 +56,8 @@ export function SplashScreen({ onComplete }: SplashScreenProps) {
             alt="Sugar Radio"
             width={80}
             height={80}
+            loading="eager"
+            priority
             className="rounded-full ring-4 ring-[#f8a4b8]/40 shadow-lg shadow-[#f8a4b8]/20"
           />
           <h1

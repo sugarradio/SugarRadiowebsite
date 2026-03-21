@@ -7,6 +7,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "nav.catalog": "Catalogo",
     "nav.artists": "Artistas",
     "nav.community": "Comunidad",
+    "nav.partners": "Partners",
     "nav.about": "Acerca de",
 
     // Hero
@@ -70,6 +71,22 @@ export const translations: Record<Locale, Record<string, string>> = {
     "community.bot.desc":
       "Estamos trabajando en un bot de streaming continuo al estilo lofi girl, con musica curada de nuestro catalogo.",
 
+    // Partners
+    "partners.badge": "Partners",
+    "partners.title": "Nuestros Partners",
+    "partners.subtitle": "Sugar Radio tiene nuevos partners!",
+
+    // Cat Shelter
+    "pelitos.title": "Casa Hogar de Gatitos",
+    "pelitos.description":
+      "PelitosDeGatoDeCafeConMoka es una casa hogar / refugio donde se cuida de gatitos. Actualmente hay mas de 20 gatitos que se estan cuidando y SugarRadio esta siendo usado para financiar comida, gastos de veterinario y cualquier cosa relacionada con los gatitos.",
+    "pelitos.donation_info":
+      "Actualmente por la cantidad de gatos que tenemos estamos recibiendo donaciones mediante Ko-fi. Al donar se te dara un rol exclusivo en Discord donde tendras beneficios y recompensas exclusivas (Incluso en un futuro la posibilidad de nombrar a algun gatito).",
+    "pelitos.cats_count": "gatitos",
+    "pelitos.supported_by": "Apoyado por Sugar Radio",
+    "pelitos.support_cta": "Por favor apoyanos aqui!!",
+    "pelitos.kofi_button": "Donar en Ko-fi",
+
     // About
     "about.badge": "Acerca de",
     "about.title": "Sobre Sugar Radio",
@@ -93,6 +110,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "nav.catalog": "カタログ",
     "nav.artists": "アーティスト",
     "nav.community": "コミュニティ",
+    "nav.partners": "パートナー",
     "nav.about": "紹介",
 
     // Hero
@@ -156,6 +174,22 @@ export const translations: Record<Locale, Record<string, string>> = {
     "community.bot.desc":
       "lofi girlスタイルの継続的なストリーミングBotを開発中。カタログから厳選した音楽をお届けします。",
 
+    // Partners
+    "partners.badge": "パートナー",
+    "partners.title": "パートナー",
+    "partners.subtitle": "Sugar Radioに新しいパートナーが加わりました!",
+
+    // Cat Shelter
+    "pelitos.title": "猫のシェルター",
+    "pelitos.description":
+      "PelitosDeGatoDeCafeConMokaは猫を世話するホーム/シェルターです。現在20匹以上の猫が世話されており、SugarRadioは食事、獣医費、猫に関するあらゆるものの資金調達に使用されています。",
+    "pelitos.donation_info":
+      "現在、猫の数が多いため、Ko-fiで寄付を受け付けています。寄付すると、Discordで限定特典や報酬が得られる限定ロールが付与されます（将来的には猫に名前を付ける可能性も！）。",
+    "pelitos.cats_count": "匹の猫",
+    "pelitos.supported_by": "Sugar Radioがサポート",
+    "pelitos.support_cta": "こちらからご支援ください!!",
+    "pelitos.kofi_button": "Ko-fiで寄付する",
+
     // About
     "about.badge": "紹介",
     "about.title": "Sugar Radioについて",
@@ -178,6 +212,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "nav.catalog": "目录",
     "nav.artists": "艺术家",
     "nav.community": "社区",
+    "nav.partners": "合作伙伴",
     "nav.about": "关于",
 
     // Hero
@@ -241,6 +276,22 @@ export const translations: Record<Locale, Record<string, string>> = {
     "community.bot.desc":
       "我们正在开发lofi girl风格的持续流媒体机器人，从我们的目录中精选音乐。",
 
+    // Partners
+    "partners.badge": "合作伙伴",
+    "partners.title": "我们的合作伙伴",
+    "partners.subtitle": "Sugar Radio有了新的合作伙伴!",
+
+    // Cat Shelter
+    "pelitos.title": "猫咪之家",
+    "pelitos.description":
+      "PelitosDeGatoDeCafeConMoka是一个照顾猫咪的家/收容所。目前有20多只猫正在被照顾，SugarRadio正在用于资助猫咪的食物、兽医费用和任何与猫相关的事情。",
+    "pelitos.donation_info":
+      "由于我们的猫数量较多，我们目前正在通过Ko-fi接受捐款。捐款后，您将在Discord获得专属角色，享有独家福利和奖励（未来甚至有机会为小猫命名！）。",
+    "pelitos.cats_count": "只猫咪",
+    "pelitos.supported_by": "Sugar Radio支持",
+    "pelitos.support_cta": "请在这里支持我们!!",
+    "pelitos.kofi_button": "在Ko-fi捐款",
+
     // About
     "about.badge": "关于",
     "about.title": "关于Sugar Radio",
@@ -262,6 +313,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "nav.catalog": "Catalog",
     "nav.artists": "Artists",
     "nav.community": "Community",
+    "nav.partners": "Partners",
     "nav.about": "About",
 
     // Hero
@@ -324,6 +376,22 @@ export const translations: Record<Locale, Record<string, string>> = {
     "community.bot.title": "24/7 Streaming Bot",
     "community.bot.desc":
       "We're building a continuous streaming bot, lofi girl style, with music curated from our catalog.",
+
+    // Partners
+    "partners.badge": "Partners",
+    "partners.title": "Our Partners",
+    "partners.subtitle": "Sugar Radio has new partners!",
+
+    // Cat Shelter
+    "pelitos.title": "Cat Shelter Home",
+    "pelitos.description":
+      "PelitosDeGatoDeCafeConMoka is a home / shelter where cats are cared for. Currently there are more than 20 cats being cared for and SugarRadio is being used to fund food, veterinary expenses and anything related to the cats.",
+    "pelitos.donation_info":
+      "Due to the number of cats we have, we are currently receiving donations through Ko-fi. When you donate, you will receive an exclusive Discord role with exclusive benefits and rewards (even the possibility of naming a kitten in the future!).",
+    "pelitos.cats_count": "cats",
+    "pelitos.supported_by": "Supported by Sugar Radio",
+    "pelitos.support_cta": "Please support us here!!",
+    "pelitos.kofi_button": "Donate on Ko-fi",
 
     // About
     "about.badge": "About",

@@ -15,6 +15,8 @@ export function Navbar() {
     { href: "#catalogo", label: t("nav.catalog") },
     { href: "#artistas", label: t("nav.artists") },
     { href: "#comunidad", label: t("nav.community") },
+    { href: "#partners", label: t("nav.partners") },
+    { href: "#pelitos", label: "PelitosDeGatoDeCafeConMoka" },
     { href: "#acerca", label: t("nav.about") },
   ];
 
@@ -88,6 +90,8 @@ export function Navbar() {
             alt="Sugar Radio"
             width={36}
             height={36}
+            loading="eager"
+            priority
             className="rounded-full ring-2"
             style={{ boxShadow: "0 0 0 2px rgba(248, 164, 184, 0.3)" }}
           />
